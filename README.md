@@ -1,4 +1,5 @@
 # AI-Driven Supply Chain Disruption Predictor and Inventory Optimization System
+---
 ## Milestone 1:
 ###  1. Introduction
 
@@ -72,7 +73,7 @@ This project combines APIs for real-time data retrieval and GPT-4's capabilities
 
 
 
-
+---
 
 
 ## MILESTONE 2:
@@ -119,7 +120,7 @@ Each description is linked to a likelihood value representing the probability of
     -flask
     -pandas
     -sklearn
-
+---
 ## How It Works
 1. **Input**:
     - The process begins with the retrieval of articles or relevant text data related to the chocolate supply chain, which are either manually entered or retrieved from an external source, such as a news API or a file.
@@ -144,7 +145,7 @@ Each description is linked to a likelihood value representing the probability of
     -Risk Prediction: A score or text-based analysis of the potential risk in the supply chain based on the description.
     -Sentiment Analysis: The overall sentiment (positive, negative, neutral) of the article or description, which gives an indication of how the situation is being viewed.
     -This information is returned in a structured JSON response, which is either displayed on the console, saved to a file, or passed to another system for further processing.
-
+---
 ## Conclusion
 This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
 
