@@ -96,30 +96,58 @@ It uses a fine-tuned BERT model to assess risks like geopolitical tensions, raw 
 4. **Prediction API**:
     - A Flask-based web API that exposes a RESTful service for making predictions. Clients can send a POST request to predict the likelihood of supply chain disruptions.
 
-## How It Works
-1. **Data Collection**:
-    - The dataset includes risk descriptions associated with the chocolate supply chain.
-Each description is linked to a likelihood value representing the probability of disruption.
+# Global Supply Chain Risk Analysis & Warehouse Alerts
 
-2. **Model Training**:
-    - A pre-trained BERT model is fine-tuned using the provided dataset. The model classifies the likelihood of disruption based on the input risk description.
+## Overview
+This project focuses on analyzing global supply chain risks related to chocolate production, trade, and inventory management. The system uses a combination of real-time news analysis, machine learning-based risk prediction, and warehouse data analysis to identify potential disruptions. By leveraging sentiment analysis, predictive modeling, and ERP simulations, the system generates actionable insights to help manage stock levels and respond to disruptions.
 
-3.**Prediction**:
-    - The trained model can be used to predict the likelihood of disruptions when new risk descriptions are provided.
+## Project Goals
+- **Risk Assessment for Chocolate Production & Trade**: Identify and evaluate risks affecting chocolate production and trade.
+- **Disruption Prediction**: Develop predictive models to forecast supply chain disruptions.
+- **Inventory Management**: Simulate and optimize warehouse stock levels using predictive data.
+- **Sentiment Analysis**: Understand market sentiment to assess potential impacts on the chocolate supply chain.
 
-4. **Flask API**:
-    - A RESTful API is set up to allow external systems to send descriptions and receive predictions.
+
+- **Chocolate News Analysis**:
+  - Fetch real-time news related to chocolate production and trade.
+  - Analyze sentiment to identify risks such as production delays, price hikes, or political instability.
+  
+- **Risk Prediction**:
+  - Train a model using historical supply chain data, news sentiment, and market trends to predict potential disruptions in the chocolate supply chain.
+  
+- **Warehouse Data Simulation**:
+  - Simulate warehouse inventory data, adjusting stock levels based on predicted risks.
+  - Generate alerts for low stock or excess inventory to optimize stock management.
+
+### Milestone 3: Predictive Disruption Modeling & ERP Integration
+This milestone integrates predictive models and ERP simulations to automatically adjust stock levels in response to supply chain disruptions.
+
+- **Predictive Disruption Modeling**:
+  - Utilize machine learning models to predict disruptions based on historical data and external factors.
+  - Forecast disruptions like supply delays, demand surges, and production issues.
+
+- **ERP Integration**:
+  - Simulate ERP system integration to automate stock adjustments based on predicted disruptions.
+  - Optimize inventory management and adjust stock levels for future risks.
+
 
 
 ## Requirements
 **To run this project, you'll need the following dependencies**:
+    
+- **pandas**: For data manipulation
+- **matplotlib**: For visualizations
+- **scikit-learn**: For building machine learning models
+- **lightgbm**: For gradient boosting in risk prediction
+- **openai**: For sentiment analysis using OpenAI models
+- **sqlite3**: For simulating ERP database interactions
+- **KaggleHub**: For downloading datasets
+- **Pillow (PIL)**: For image handling in case of visual data processing
 
-    -Python 3.8 or higher
-    -transformers (Hugging Face library)
-    -torch (PyTorch)
-    -flask
-    -pandas
-    -sklearn
+Install all required libraries with:
+
+```bash
+pip install -r requirements.txt
 ---
 ## How It Works
 1. **Input**:
