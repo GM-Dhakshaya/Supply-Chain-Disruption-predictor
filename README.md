@@ -119,7 +119,8 @@ This project focuses on analyzing global supply chain risks related to chocolate
   - Simulate warehouse inventory data, adjusting stock levels based on predicted risks.
   - Generate alerts for low stock or excess inventory to optimize stock management.
 
-### Milestone 3: Predictive Disruption Modeling & ERP Integration
+## Milestone 3: 
+### Predictive Disruption Modeling & ERP Integration
 This milestone integrates predictive models and ERP simulations to automatically adjust stock levels in response to supply chain disruptions.
 
 - **Predictive Disruption Modeling**:
