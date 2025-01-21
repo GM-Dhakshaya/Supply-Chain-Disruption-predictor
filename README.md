@@ -146,7 +146,7 @@ This milestone integrates predictive models and ERP simulations to automatically
 
 Install all required libraries with:
 
-```bash
+
 pip install -r requirements.txt
 ---
 ## How It Works
