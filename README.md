@@ -174,9 +174,6 @@ pip install -r requirements.txt
     -Risk Prediction: A score or text-based analysis of the potential risk in the supply chain based on the description.
     -Sentiment Analysis: The overall sentiment (positive, negative, neutral) of the article or description, which gives an indication of how the situation is being viewed.
     -This information is returned in a structured JSON response, which is either displayed on the console, saved to a file, or passed to another system for further processing.
----
-## Conclusion
-This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
 
 
 ---
@@ -225,7 +222,11 @@ The program reads data from `chocolate_supply_chain_data.csv`. This data include
 ---
 
 ## Example Slack Alert:
+![Chocolate Alert Example](images/alert.jpeg)
 
+
+## Conclusion
+This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
 """
 
 
