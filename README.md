@@ -76,8 +76,7 @@ This project combines APIs for real-time data retrieval and GPT-4's capabilities
 ---
 
 
-## MILESTONE 2:
-## Supply Chain Risk Prediction
+# MILESTONE 2: Supply Chain Risk Prediction
 ### Overview
 This project focuses on developing a model to predict supply chain disruptions and optimize inventory management. The goal is to analyze the likelihood of disruptions in the chocolate supply chain, specifically for risk factors that affect supply chains globally. Using a combination of machine learning techniques and natural language processing (NLP), the project predicts the likelihood of supply chain disruptions based on descriptive risk factors provided in the input data.
 
@@ -95,11 +94,7 @@ It uses a fine-tuned BERT model to assess risks like geopolitical tensions, raw 
       
 4. **Prediction API**:
     - A Flask-based web API that exposes a RESTful service for making predictions. Clients can send a POST request to predict the likelihood of supply chain disruptions.
-
-# Global Supply Chain Risk Analysis & Warehouse Alerts
-
-## Overview
-This project focuses on analyzing global supply chain risks related to chocolate production, trade, and inventory management. The system uses a combination of real-time news analysis, machine learning-based risk prediction, and warehouse data analysis to identify potential disruptions. By leveraging sentiment analysis, predictive modeling, and ERP simulations, the system generates actionable insights to help manage stock levels and respond to disruptions.
+---
 
 ## Project Goals
 - **Risk Assessment for Chocolate Production & Trade**: Identify and evaluate risks affecting chocolate production and trade.
@@ -119,8 +114,7 @@ This project focuses on analyzing global supply chain risks related to chocolate
   - Simulate warehouse inventory data, adjusting stock levels based on predicted risks.
   - Generate alerts for low stock or excess inventory to optimize stock management.
 
-## Milestone 3: 
-### Predictive Disruption Modeling & ERP Integration
+# Milestone 3: Predictive Disruption Modeling & ERP Integration
 This milestone integrates predictive models and ERP simulations to automatically adjust stock levels in response to supply chain disruptions.
 
 - **Predictive Disruption Modeling**:
@@ -131,7 +125,7 @@ This milestone integrates predictive models and ERP simulations to automatically
   - Simulate ERP system integration to automate stock adjustments based on predicted disruptions.
   - Optimize inventory management and adjust stock levels for future risks.
 
-
+---
 
 ## Requirements
 **To run this project, you'll need the following dependencies**:
@@ -179,12 +173,12 @@ pip install -r requirements.txt
 ---
 # Milestone-4: Warehouse Alert System with Slack Notification
 
-The program, `slack_alert.py`, analyzes chocolate supply chain data and generates alerts based on utilization, risk levels, and sentiment of the supply chain. It aids stakeholders in taking timely actions (`BUY`, `SELL`, `MONITOR`) to manage disruptions and optimize inventory.
+The program, `alert.py`, analyzes chocolate supply chain data and generates alerts based on utilization, risk levels, and sentiment of the supply chain. It aids stakeholders in taking timely actions (`BUY`, `SELL`, `MONITOR`) to manage disruptions and optimize inventory.
 
 ## Program Workflow
 
 ### Input Data:
-The program reads data from `chocolate_supply_chain_data.csv`. This data includes:
+The program reads data from `generated_warehouse_data`. This data includes:
 - **Monthly Incoming Stock**: Inventory entering the warehouse.
 - **Warehouse Capacity**: Maximum storage limits.
 - **Risk Analysis Levels**: High, Medium, or Low risks.
@@ -222,42 +216,16 @@ The program reads data from `chocolate_supply_chain_data.csv`. This data include
 ---
 
 ## Example Slack Alert:
-![Chocolate Alert Example](images/alert.jpeg)
+![Chocolate Alert Example](alert.jpeg)
+
+---
 
 
 ## Conclusion
 This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
 """
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-generated_warehouse_data
 
 
