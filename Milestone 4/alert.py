@@ -1,6 +1,6 @@
 from slack_sdk import WebClient
 
-client = WebClient(token="xoxb-8354222057619-8354264601811-vFutOLsB1ZxwKwD8qBfF3VcC")
+client = WebClient(token="your-bot-token")
 
 def send_slack_message(channel, message):
     client.chat_postMessage(channel=channel, text=message)
