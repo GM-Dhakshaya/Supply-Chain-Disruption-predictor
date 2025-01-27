@@ -223,7 +223,7 @@ The program reads data from `generated_warehouse_data`. This data includes:
 
 ## Conclusion
 This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
-"""
+
 
 ---
 
