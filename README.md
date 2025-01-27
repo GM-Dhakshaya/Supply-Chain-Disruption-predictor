@@ -179,3 +179,84 @@ pip install -r requirements.txt
 This project focuses on the risks and supply chain management of chocolate production. By leveraging learning models, it predicts potential risks like supply chain disruptions and evaluates their impact. The model also assists in identifying key factors affecting the chocolate supply chain to help improve decision-making and mitigate risks effectively.
 
 
+---
+# Milestone-4: Warehouse Alert System with Slack Notification
+
+The program, `slack_alert.py`, analyzes chocolate supply chain data and generates alerts based on utilization, risk levels, and sentiment of the supply chain. It aids stakeholders in taking timely actions (`BUY`, `SELL`, `MONITOR`) to manage disruptions and optimize inventory.
+
+## Program Workflow
+
+### Input Data:
+The program reads data from `chocolate_supply_chain_data.csv`. This data includes:
+- **Monthly Incoming Stock**: Inventory entering the warehouse.
+- **Warehouse Capacity**: Maximum storage limits.
+- **Risk Analysis Levels**: High, Medium, or Low risks.
+- **Sentiment Analysis**: Positive, Neutral, or Negative sentiment related to supply chain data.
+
+### Slack Notification Process:
+
+1. **Alert Generation**:
+   - Alerts are created for each item based on:
+     - **Risk**: High, Medium, or Low.
+     - **Sentiment**: Positive, Neutral, or Negative.
+     - **Utilization**: Warehouse capacity levels.
+   - Decisions include:
+     - `BUY`: High risk and negative sentiment indicating potential shortages.
+     - `SELL`: Low risk and positive sentiment indicating potential excess.
+     - `MONITOR`: Mixed signals requiring close observation.
+
+2. **Notification to Slack**:
+   - Alerts are prepared with key insights:
+     - **Item Name**: Identifies the affected product.
+     - **Action**: Specifies `BUY`, `SELL`, or `MONITOR`.
+     - **Reason**: Explains the basis of the alert, such as "High risk and negative sentiment—potential shortage detected."
+   - Notifications are sent to a specified Slack channel using the Slack API.
+
+---
+
+## Outcome:
+1. **Real-Time Alerts**:
+   - Alerts are displayed in the terminal and sent instantly to Slack.
+2. **Automated Workflow**:
+   - Notifications are sent without manual intervention, ensuring quick dissemination.
+3. **Actionable Insights**:
+   - Alerts guide stakeholders to adjust inventory, prevent shortages, or reduce excess stock.
+
+---
+
+## Example Slack Alert:
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+generated_warehouse_data
+
+
